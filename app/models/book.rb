@@ -3,3 +3,4 @@ class Book < ActiveRecord::Base
 	validates :author, presence: true
 	validates :pages, presence: true
 end
+

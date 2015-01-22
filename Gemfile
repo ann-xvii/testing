@@ -11,6 +11,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'capybara'
+group :development do
+  gem "better_errors"
+end
+
+gem "binding_of_caller"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -24,7 +30,7 @@ gem "binding_of_caller"
 
 group :development, :test do
   
-  gem 'byebug'
+
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 

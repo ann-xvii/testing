@@ -5,4 +5,5 @@ FactoryGirl.define do
 	pages 300
   end
 
+
 end
