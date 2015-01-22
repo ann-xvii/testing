@@ -12,9 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'capybara'
-group :development do
-  gem "better_errors"
-end
+
 
 gem "binding_of_caller"
 
@@ -24,9 +22,6 @@ gem "binding_of_caller"
 group :development do
   gem "better_errors"
 end
-
-gem 'capybara'
-gem "binding_of_caller"
 
 group :development, :test do
   
