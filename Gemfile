@@ -15,7 +15,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+group :development do
+  gem "better_errors"
+end
 
+gem 'capybara'
+gem "binding_of_caller"
 
 group :development, :test do
   
